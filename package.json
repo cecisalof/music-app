@@ -9,8 +9,7 @@
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel", 
     "parcel:build": "parcel build", 
-    "clean": "rimraf dist .parcel-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist .parcel-cache"
   },
   "author": "Cecilia Losada",
   "license": "ISC",

@@ -1,14 +1,15 @@
-## Musi-app
+## Music web site
 
-Accesible desde (añadir el link de la web)
-Atribuciones: (si hay que hacer algún atribución de recursos)
+- Accesible desde (añadir el link de la web)
+
+- Atribuciones: (si hay que hacer algún atribución de recursos)
 
 
 A continuación, se detallan los pasos necesarios para poner en marcha el proyecto music-app en un entorno virtual, además de cómo instalar las herramientas necesarias para levantar el proyecto.
 
 ### Resumen del Proyecto - Sitio web de música
 
-El objetivo de este proyecto es desarrollar un sitio web de un grupo de música (indicar qué grupo) utilizando Node.js, así como pre o postprocesadores de CSS, JavaScript o HTML con Parcel. El sitio web debe ser responsive y se debe poder visualizar correctamente desde cualquier dispositivo moderno (teléfono, tableta, ordenador ...). 
+El objetivo de este proyecto es desarrollar un sitio web de un grupo de música Snarky Puppy utilizando Node.js, así como pre o postprocesadores de CSS, JavaScript o HTML con Parcel. El sitio web debe ser responsive y se debe poder visualizar correctamente desde cualquier dispositivo moderno (teléfono, tableta, ordenador ...). 
 
 ### Requisitos previos
 

@@ -56,13 +56,24 @@ Ahora abre http://localhost:1234/ en tu navegador para ver el proyecto de web te
   }
 ```
 
-Se ha configurado un script para iniciar el servidor de desarrollo ```"start": "npm-run-all clean parcel:dev" ```. Para iniciarlo usan el comando:
+Se ha configurado un script para iniciar el servidor de desarrollo, que elimina archivos o directorios temporales e inicia el servidor de desarrollo usando Parcel bundler.
+
+```"start": "npm-run-all clean parcel:dev"```
+
+Esta secuencia asegura que cualquier operación de limpieza necesaria se realice antes de iniciar el servidor de desarrollo.
+
+Para iniciarlo usa el comando:
 
 ```yarn start``` 
 o 
 ```npm start``` 
 
-Para construir la aplicación en producción ```"build": "npm-run-all clean parcel:build"```, usa el comando:
+
+Para construir la aplicación en producción, se ha configirado un script que limpiará el proyecto, y luego lo construirá utilizando Parcel bundler para el despliegue en producción: 
+
+```"build": "npm-run-all clean parcel:build"```
+
+Para construir la aplicación usa el comando:
 
 ```yarn build```
 o

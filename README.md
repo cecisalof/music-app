@@ -56,13 +56,13 @@ Ahora abre http://localhost:1234/ en tu navegador para ver el proyecto de web te
   }
 ```
 
-Se ha configurado un script para iniciar el servidor de desarrollo ```"start": "npm-run-all clean parcel:dev" ``` usando el comando 
+Se ha configurado un script para iniciar el servidor de desarrollo ```"start": "npm-run-all clean parcel:dev" ```. Para iniciarlo usan el comando:
 
 ```yarn start``` 
 o 
 ```npm start``` 
 
-y otro para para construir la aplicación en producción ```"build": "npm-run-all clean parcel:build"``` usando el comando 
+Para construir la aplicación en producción ```"build": "npm-run-all clean parcel:build"```, usa el comando:
 
 ```yarn build```
 o

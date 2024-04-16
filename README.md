@@ -56,25 +56,29 @@ Ahora abre http://localhost:1234/ en tu navegador para ver el proyecto de web te
   }
 ```
 
-Se ha configurado un script para iniciar el servidor de desarrollo:
+Se ha configurado un script para iniciar el servidor de desarrollo ```"start": "npm-run-all clean parcel:dev" ``` usando el comando 
 
-```"start": "npm-run-all clean parcel:dev" ``` usando el comando ```yarn start``` o ```npm start``` 
+```yarn start``` 
+o 
+```npm start``` 
 
-y otro para para construir la aplicación en producción:
+y otro para para construir la aplicación en producción ```"build": "npm-run-all clean parcel:build"``` usando el comando 
 
- ```"build": "npm-run-all clean parcel:build"``` usando el comando ```yarn build``` o ```npm run build```.
+```yarn build```
+o
+```npm run build```
 
 
-Por último, también se ha declarado la entrada -desde donde Parcel comienza a construir el código fuente- en el campo source  ```"source": "index.html"```, para no tener que duplicarlas en cada comando parcel.
+Por último, también se ha declarado la entrada desde donde Parcel comienzará a construir el código fuente, en el campo source para no tener que duplicarlas en cada comando parcel: ```"source": "index.html"```.
 
 
 ## 4. Soporte para navegadores antiguos:
 
 Para asegurar la compatibilidad con los navegadores soportados, se declaran los navegadores soportados por el sitio web en el campo browserslist: 
 
-´´´
+```
  "browserslist": "> 0.5%, last 2 versions, not dead",
-´´´
+```
 
 El comando anterior dará soporte a: 
 - versiones de navegadores seleccionadas por las estadísticas globales de uso > 0.5%.

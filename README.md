@@ -56,6 +56,9 @@ Ahora abre http://localhost:1234/ en tu navegador para ver el proyecto de web te
   }
 ```
 
+
+- DESARROLLO:
+
 Se ha configurado un script para iniciar el servidor de desarrollo, que elimina archivos o directorios temporales e inicia el servidor de desarrollo usando Parcel bundler.
 
 ```"start": "npm-run-all clean parcel:dev"```
@@ -68,6 +71,9 @@ Para iniciarlo usa el comando:
 o 
 ```npm start``` 
 
+
+
+- PRODUCCIÓN: 
 
 Para construir la aplicación en producción, se ha configirado un script que limpiará el proyecto, y luego lo construirá utilizando Parcel bundler para el despliegue en producción: 
 

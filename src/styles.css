@@ -63,6 +63,7 @@ p {
   .container,
   .container-films {
     width: 80vw;
+    margin: 12rem 5rem auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
@@ -88,7 +89,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 1239px) {
   .container-films {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 24px 14px;
     padding: 24px 62px;
     margin: 0;
@@ -98,7 +99,7 @@ p {
 
 @media (max-width: 768px) {
   .container-films {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 24px 14px;
     margin: 0;
     margin-top: 12rem;
@@ -124,8 +125,12 @@ footer {
 
 /* Main structure */
 
-main {
+/* main {
   padding-top: 10rem;
+} */
+
+.main-section {
+  /* margin-top: 12rem; */
 }
 
 .logo {

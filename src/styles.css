@@ -281,9 +281,10 @@ button:hover {
   text-rendering: auto;
 }
 
-.icon-right{
+.icon-right {
   margin-left: 10px;
 }
+
 /* @media (min-width: 768px) and (max-width: 1239px) {
   #bannerText {
     font-size: 2.8em;
@@ -444,10 +445,65 @@ img.award-item {
   flex-basis: 33%;
 }
 
+.about-video{
+  background-color: var(--main-background);
+  /* color: white; */
+  padding: 10rem;
+
+  /* height: 45rem; */
+}
+
+figure.video-about{
+  height: 30rem;
+}
+
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* NETWORK BANNER */
+
+.networks{
+  width: 100%;
+}
+
 .networks .network-image {
   max-width: 100%;
   margin: 0 auto;
+}
+
+
+@media (min-width: 1200px) {
+  .container-networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../src/assets/fisheye-snarky.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 999px) {
+  .container-networks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+}
+
+.networks-row {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+img.network{
+  width: 80%
 }
 
 /* APPS PAGE

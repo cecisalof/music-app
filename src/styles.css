@@ -539,7 +539,7 @@ img.network{
 .apps-columns {
   background-color: rgb(244, 246, 247);
   padding: 24px;
-}
+} */
 
 .text-highlight,
 .article-reference,
@@ -550,7 +550,7 @@ a.links,
 a.privacy {
   color: var(--varColor);
   text-decoration: none;
-} */
+}
 
 /* MUSIC&VIDEO PAGE */
 
@@ -585,8 +585,7 @@ a.privacy {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
   grid-auto-rows: minmax(27rem, auto);
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
 }
 
 .disc-img-container {
@@ -641,11 +640,16 @@ iframe {
 
 /* ARTICLE PAGE */
 
+.container-article {
+  margin: 2rem auto;
+}
+
 .nav-list {
   margin: 0 0.5rem;
 }
 
 .breadcrumb {
+  margin-top: 10rem;
   padding: 0.5rem;
   padding-top: 4rem;
 }
@@ -696,7 +700,10 @@ iframe {
 }
 
 .card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-gap: 5px;
+  margin: 2rem 0;
   border-bottom: rgba(0, 0, 0, 0.5) dotted;
   padding: 1em 0;
 }
@@ -706,7 +713,7 @@ iframe {
 }
 
 .card-img {
-  border-radius: 100%;
+  /* border-radius: 100%; */
   width: 60%;
 }
 

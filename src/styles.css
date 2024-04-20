@@ -274,6 +274,10 @@ button:hover {
   background-color: white;
 }
 
+.secondary-btn{
+  background-color: var(--highlight);
+  font-family: Arvo, sans-serif;
+}
 
 .fa-chevron-right:before {
   content: "\f054";
@@ -575,16 +579,25 @@ a.privacy {
   font-size: 80px;
 }
 
-.youtube {
-  display: block;
-  text-align: center;
+.discography {
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  grid-auto-rows: minmax(27rem, auto);
+  /* align-items: center;
+  justify-content: center; */
 }
 
-.youtube-btn{
-  background-color: var(--highlight);
+.disc-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.film-section-container {}
+.btn-container {
+  margin: 1rem 0
+}
 
 .video-wrapper {
   width: 80vw;
@@ -615,6 +628,15 @@ iframe {
   background-color: rgb(244, 246, 247);
   font-size: 0.8em;
   padding: 24px 16px;
+}
+
+.youtube {
+  display: block;
+  text-align: center;
+}
+
+.secondary-btn{
+  background-color: var(--highlight);
 }
 
 /* ARTICLE PAGE */
@@ -860,4 +882,40 @@ footer {
   color: #fff;
   margin: 30px 2rem;
   font-size: 0.8em;
+}
+
+/* MEDIA QUERIES BREAKPOINTS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .discography-img{
+    max-width: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .discography-img{
+    max-width: 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .discography-img{
+    max-width: 50%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .discography-img{
+    max-width: 50%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .discography-img{
+    max-width: 60%;
+  }
 }

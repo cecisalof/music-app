@@ -103,15 +103,13 @@ El comando anterior dará soporte a:
 - las 2 últimas versiones para cada navegador.
 - navegadores con soporte oficial o actualizaciones durante 24 meses.
 
-## 5. Gestión de dependencia: 
-
-
-
 ## 6. Creación del repositorio Git
 
 
 ## 7. Adecuación a la temática y estructura de la práctica.
 
+
 ## 8. Diseño responsive, complejidad y estética
+
 
 ## 9. Semántica y accesibilidad

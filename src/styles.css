@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
 @import "./config/index.css";
 
 html {
@@ -26,15 +27,18 @@ body {
 }
 
 h1 {
+  font-family: Arvo, sans-serif;
   font-size: 2.5em;
 }
 
 h2 {
+  font-family: Arvo, sans-serif;
   font-size: 2em;
   text-align: center;
 }
 
 h3 {
+  font-family: Arvo, sans-serif;
   font-size: 1.8em;
 }
 
@@ -126,8 +130,8 @@ footer {
   padding-top: 10rem;
 } */
 
-.main-section {
-  /* margin-top: 12rem; */
+.main-section-video {
+  margin-top: 8rem;
 }
 
 .logo {
@@ -231,7 +235,8 @@ img.main-band {
 
 @media (min-width: 1240px) {
   #bannerText {
-    font-size: 1.5em;
+    font-size: 40px;
+    font-family: Arvo, sans-serif;
     margin: 10rem;
   }
 }
@@ -543,11 +548,47 @@ a.privacy {
   text-decoration: none;
 } */
 
-/* Films page */
+/* MUSIC&VIDEO PAGE */
+
+.music-container {
+  width: 100%;
+}
+
+#header-banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  height: 20rem;
+  background-image: url('../src/assets/music&video-banner.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#header-bannerText {
+  color: white;
+  text-align: center;
+  align-self: center;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+.youtube {
+  display: block;
+  text-align: center;
+}
+
+.youtube-btn{
+  background-color: var(--highlight);
+}
 
 .film-section-container {}
 
 .video-wrapper {
+  width: 80vw;
+  margin: 5rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
@@ -576,7 +617,7 @@ iframe {
   padding: 24px 16px;
 }
 
-/* Despacho 42 Page*/
+/* ARTICLE PAGE */
 
 .nav-list {
   margin: 0 0.5rem;

@@ -103,13 +103,17 @@ El comando anterior dará soporte a:
 - las 2 últimas versiones para cada navegador.
 - navegadores con soporte oficial o actualizaciones durante 24 meses.
 
-## 6. Creación del repositorio Git
+## 5. Creación del repositorio Git
+
+El repositorio de git fue creado con el comando ```git init``` y puede consultarse en: https://github.com/cecisalof/music-app.git
 
 
-## 7. Adecuación a la temática y estructura de la práctica.
+## 6. Adecuación a la temática y estructura de la práctica.
 
 
-## 8. Diseño responsive, complejidad y estética
+## 7. Diseño responsive, complejidad y estética
+ Para la estética de la web de Snarky Puppy se visitó la [weboficial](http://https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=37%3A3&mode=design&t=4PfKgvzQcV9TO1xK-1 "Snarky Puppy") propio de este proyecto. 
 
+ La propuesta busca mantener un estética limpia con información clara de cara al usuario.
 
-## 9. Semántica y accesibilidad
+## 8. Semántica y accesibilidad

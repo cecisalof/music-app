@@ -116,13 +116,18 @@ El comando anterior dará soporte a:
 
 El repositorio de git fue creado con el comando ```git init``` y puede consultarse en: https://github.com/cecisalof/music-app.git
 
+## 6. Estructura:
 
-## 6. Adecuación a la temática y estructura de la práctica.
+- Página Home: (Portada) Presenta el contenido, con una barra de navegación con enlaces al resto de páginas. También incluye secciones que enlazan al resto de las páginas.
 
+- Snarky´s World: (Categoría) Esta página ofrece un listado de elementos relacionados con la temática general: discografía con enlaces a spotify y al detalle del disco, así como videos de la banda. La discografía enlaza a la página de detalle, misma que está relacionada con la o las noticias del disco.
 
-## 7. Diseño responsive, complejidad y estética
+- About: (Presentación) En esta página se habla de forma más detalladamente de la banda. La página inlcuye elementos multimedia como imágenes o videos y enlaces a los diferentes portales desde donde se puede escuchar la discografía de Snarky puppy.
+
+- Enlaces Una página con documentación y enlaces a las fuentes de las que se ha sacado el contenido y atribuciones a los derechos copyleft cuando sea necesario.
+
+## 6. Estética
  Para la estética de la web de Snarky Puppy se visitó la [weboficial](https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=0%3A1&mode=design&t=3Uo8EeMNLMhu9cJX-1 "Snarky Puppy") propio de este proyecto. 
 
  La propuesta busca mantener un estética limpia con información clara de cara al usuario.
 
-## 8. Semántica y accesibilidad

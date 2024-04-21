@@ -1,8 +1,17 @@
 ## Music web site
 
-- Accesible desde (añadir el link de la web)
+- Accesible desde: https://cecisalof.github.io/music-app/
 
-- Atribuciones: (si hay que hacer algún atribución de recursos)
+- Atribuciones: 
+1. https://snarkypuppy.com/music
+2. Image atrubutions: 
+- https://imgur.com/4dhoxmJ
+- https://imgur.com/Hf7JxHP
+- https://imgur.com/4OUdN7l
+- https://www.last.fm/es/music/Snarky+Puppy/+images/44900cf7d5144da9cd04dfeda0eba4fd
+3. Icon attributions:
+- "https://www.freepik.com/search" > Icons by Freepik
+
 
 
 A continuación, se detallan los pasos necesarios para poner en marcha el proyecto music-app en un entorno virtual, además de cómo instalar las herramientas necesarias para levantar el proyecto.

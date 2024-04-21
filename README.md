@@ -112,7 +112,7 @@ El repositorio de git fue creado con el comando ```git init``` y puede consultar
 
 
 ## 7. Diseño responsive, complejidad y estética
- Para la estética de la web de Snarky Puppy se visitó la [weboficial](https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=37%3A3&mode=design&t=4PfKgvzQcV9TO1xK-1 "Snarky Puppy") propio de este proyecto. 
+ Para la estética de la web de Snarky Puppy se visitó la [weboficial](https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=0%3A1&mode=design&t=3Uo8EeMNLMhu9cJX-1 "Snarky Puppy") propio de este proyecto. 
 
  La propuesta busca mantener un estética limpia con información clara de cara al usuario.
 

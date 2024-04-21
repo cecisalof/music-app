@@ -3,13 +3,13 @@
 - Accesible desde: https://cecisalof.github.io/music-app/
 
 - Atribuciones: 
-1. https://snarkypuppy.com/music
-2. Image atrubutions: 
+1. Contenido para prensa: https://snarkypuppy.com/press/
+2. Imagenes: 
 - https://imgur.com/4dhoxmJ
 - https://imgur.com/Hf7JxHP
 - https://imgur.com/4OUdN7l
 - https://www.last.fm/es/music/Snarky+Puppy/+images/44900cf7d5144da9cd04dfeda0eba4fd
-3. Icon attributions:
+3. Íconos:
 - "https://www.freepik.com/search" > Icons by Freepik
 
 

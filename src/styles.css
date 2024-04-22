@@ -87,10 +87,6 @@ p {
   .container {
     width: 80vw;
     margin: 5rem auto;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-    margin-bottom: 50px; */
   }
 }
 
@@ -109,23 +105,6 @@ p {
     margin: 24px 0;
   }
 }
-
-/* @media (min-width: 768px) and (max-width: 1239px) {
-  .container-films {
-    padding: 24px 14px;
-    padding: 24px 62px;
-    margin: 0;
-    margin-top: 12rem;
-  }
-} */
-
-/* @media (max-width: 768px) {
-  .container-films {
-    padding: 24px 14px;
-    margin: 0;
-    margin-top: 12rem;
-  }
-} */
 
 header {
   grid-area: header;
@@ -174,7 +153,6 @@ main.body_sec {
 
 img.logo-anchor {
   margin: 0 auto;
-  /* display: block; */
   max-width: 100%;
 }
 
@@ -274,18 +252,6 @@ img.main-band {
   }
 }
 
-/* @media (max-width: 767px) {
-  #banner {
-    background-image: url('../src/assets/empirecentral.jpg');
-    background-size: cover;
-  }
-
-  #bannerText {
-    font-size: 30px;
-    margin: 4rem;
-  }
-} */
-
 button {
   padding: 10px 25px;
   background-color: transparent;
@@ -333,22 +299,6 @@ button:hover {
     margin: 6rem;
   }
 }
-
-/* .presentation-text {
-  font-size: 1.8em;
-}
-
-@media (min-width: 768px) and (max-width: 1239px) {
-  .presentation-text {
-    font-size: 1.3em;
-  }
-}
-
-@media (max-width: 767px) {
-  .presentation-text {
-    font-size: 1.1em;
-  }
-} */
 
 .wrapper {
   display: grid;
@@ -486,10 +436,7 @@ img.award-item {
 
 .about-video {
   background-color: var(--main-background);
-  /* color: white; */
   padding: 10rem;
-
-  /* height: 45rem; */
 }
 
 figure.video-about {
@@ -533,32 +480,6 @@ figure.video-about {
 img.network {
   width: 80%
 }
-
-/* APPS PAGE
-
-.apps-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 32px;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-@media (max-width: 767px) {
-  .apps-wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .apps-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.apps-columns {
-  background-color: rgb(244, 246, 247);
-  padding: 24px;
-} */
 
 .text-highlight,
 .article-reference,
@@ -836,31 +757,6 @@ ul.links-list {
   font-size: 0.8em;
 }
 
-/* FORM */
-
-.form-input {
-  width: 100%;
-  height: auto;
-  background-color: rgb(244, 246, 247);
-  border: none;
-}
-
-input[type=text],
-input[type=email] {
-  height: 2.5rem;
-}
-
-button[type='submit'] {
-  background: var(--varColor);
-  color: white;
-  border: none;
-  padding: 0.5rem;
-}
-
-input[type='checkbox'] {
-  accent-color: var(--varColor);
-}
-
 /* Footer */
 
 footer {
@@ -925,7 +821,6 @@ footer {
     padding-left: 0px;
   }
 }
-
 
 .student-name {
   color: #fff;

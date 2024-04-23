@@ -52,7 +52,7 @@ h3 {
   font-size: 1.8em;
 }
 
-h1.sections {
+.sections {
   font-family: Arvo, sans-serif;
   text-transform: uppercase;
   font-weight: bold;

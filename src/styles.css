@@ -52,7 +52,7 @@ h3 {
   font-size: 1.8em;
 }
 
-h1#sections {
+h1.sections {
   font-family: Arvo, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -326,8 +326,8 @@ button:hover {
 
 #video {
   color: var(--dark-background);
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   margin: 4rem 0;
   padding: 2rem 0;
   background-image: url('../src/assets/dark-paper.jpg');

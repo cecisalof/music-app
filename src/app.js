@@ -1,11 +1,9 @@
-window.addEventListener('load', function () {
-    let pageTitle = document.title;
-    let navEl = document.getElementById("nav-list").getElementsByTagName("li");
+/* Adding 'on' class based on  window.location.href */
 
-    for (let item of navEl) {
-        if (pageTitle == item.textContent) {
-            let className = document.querySelector(`a#${item.textContent}.active`).classList;
-            console.log(className.toggle('on'));
-        }
+document.querySelectorAll('.active').forEach((link) => {
+    console.log(link.href);
+    if (link.href === window.location.href) {
+        link.classList.add("on");
+        link.setAttribute("aria-current", "page");
     }
-})
+});

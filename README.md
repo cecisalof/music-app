@@ -112,11 +112,18 @@ El comando anterior dará soporte a:
 - las 2 últimas versiones para cada navegador.
 - navegadores con soporte oficial o actualizaciones durante 24 meses.
 
-## 5. Creación del repositorio Git
+
+## 5. Gestión de dependencias: pre- o postprocesadores y dependencias adicionales:
+
+Para este proyecto se hace uso de PostCss y Autofixer con Parcel, por lo que no es necesario instalar dichos paquetes. Cuando se compila el proyecto para producción, se genera la carpeta ```/dist``` que incluye el archivo ```index.css``` con los prefijos y cambios pertinentes basados en el soporte para navegadores indicados en el ```package.json```.
+
+Además se ha instalado ```posthtml-include``` para insertar el elemento ```<header>``` del archivo ```header.html``` como componente en todas las páginas de la web. 
+
+## 6. Creación del repositorio Git
 
 El repositorio de git fue creado con el comando ```git init``` y puede consultarse en: https://github.com/cecisalof/music-app.git
 
-## 6. Estructura:
+## 7. Estructura:
 
 - Página Home: (Portada) Presenta el contenido, con una barra de navegación con enlaces al resto de páginas. También incluye secciones que enlazan al resto de las páginas.
 
@@ -126,7 +133,7 @@ El repositorio de git fue creado con el comando ```git init``` y puede consultar
 
 - Enlaces Una página con documentación y enlaces a las fuentes de las que se ha sacado el contenido y atribuciones a los derechos copyleft cuando sea necesario.
 
-## 6. Estética
+## 8. Estética
  Para la estética de la web de Snarky Puppy se visitó la [weboficial](https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=0%3A1&mode=design&t=3Uo8EeMNLMhu9cJX-1 "Snarky Puppy") propio de este proyecto. 
 
  La propuesta busca mantener un estética limpia con información clara de cara al usuario.

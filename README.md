@@ -48,7 +48,7 @@ yarn parcel index.html
 o si usas npm ejecuta:
 
 ```
-npx parcel index.html
+npm parcel index.html
 ```
 
 Ahora abre http://localhost:1234/ en tu navegador para ver el proyecto de web terminado.
@@ -123,15 +123,28 @@ Además se ha instalado ```posthtml-include``` para insertar el elemento ```<hea
 
 El repositorio de git fue creado con el comando ```git init``` y puede consultarse en: https://github.com/cecisalof/music-app.git
 
+Posteriormente desde GitHub, fue creado un repositorio, mismo que ha sido vinculado al repositorio local del proyecto con el comando ```git remote add origin https://github.com/cecisalof/music-app.git```.
+
+Para mantener el repositorio remoto sincronizado con el repositorio local del proyecto, se han hecho los commits correspondientes, añadiendo los cambios al área de preparación  y ejecutando el siguiente comando: 
+
+ ```git add .  ```
+ ```git commit -m "Texto identificativo del commit" ```
+
+Después se han subido los cambios al repositorio remoto en GitHub ejecutando  ```git push -u origin master ```.
+
+
 ## 7. Estructura:
 
 - Página Home: (Portada) Presenta el contenido, con una barra de navegación con enlaces al resto de páginas. También incluye secciones que enlazan al resto de las páginas.
 
 - Snarky´s World: (Categoría) Esta página ofrece un listado de elementos relacionados con la temática general: discografía con enlaces a spotify y al detalle del disco, así como videos de la banda. La discografía enlaza a la página de detalle, misma que está relacionada con la o las noticias del disco.
 
+- Snarky´s World/ Empire Central: (Página de detalle): A manera de blog se presenta un artículo sobre el disco Empire Central que la banda lanzó en 2022. 
+
 - About: (Presentación) En esta página se habla de forma más detalladamente de la banda. La página inlcuye elementos multimedia como imágenes o videos y enlaces a los diferentes portales desde donde se puede escuchar la discografía de Snarky puppy.
 
 - Enlaces Una página con documentación y enlaces a las fuentes de las que se ha sacado el contenido y atribuciones a los derechos copyleft cuando sea necesario.
+
 
 ## 8. Estética
  Para la estética de la web de Snarky Puppy se visitó la [weboficial](https://snarkypuppy.com/ "Snarky Puppy") y se trabajaron colores y recursos que se adecuaban a la estética de la banda. Los recursos trabajados pueden verse en el archivo [Figma](https://www.figma.com/file/jFwPOTiTwjiiLe7mmI25H0/Snarky-Project?type=design&node-id=0%3A1&mode=design&t=3Uo8EeMNLMhu9cJX-1 "Snarky Puppy") propio de este proyecto. 

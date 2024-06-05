@@ -1,0 +1,11 @@
+<svg
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/2000/xlink">
+ 
+  <defs>
+    <clipPath id="cut-off-bottom">
+      <rect x="10" y="10" width="200" height="100" />
+    </clipPath>
+  </defs>
+</svg>

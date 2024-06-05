@@ -17,7 +17,7 @@
   </defs>
   
   <!-- Points -->
-  <circle cx="265" cy="15" r="10" fill="#ebb710"/>
+  <circle cx="265" cy="15" r="10" fill="black"/>
   <text x="0" y="30" text-anchor="start" fill="black">SNARKY PUPPY</text>
 </svg>
 

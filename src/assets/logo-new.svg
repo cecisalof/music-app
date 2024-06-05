@@ -1,0 +1,29 @@
+<svg version="1.1"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Ibarra Real Nova';
+        src: url(data:font/woff;base64,d09GRgABAAAAAJQAABAAAAABIWwAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAABtQAAAALEAAAD0INsgxEdQT1MAAG30AAAgQgAATMLjdxkfR1NVQgAAjjgAAAWCAAAMnMXsz+FPUy8yAAAB6AAAAE8AAABggd5WcVNUQVQAAJO8AAAAQgAAAEzqA8wJY21hcAAABWQAAAOCAAAEqPWSEhhnYXNwAABtOAAAAAgAAAAIAAAAEGdseWYAAA0AAABWyQAAoFh2D01aaGVhZAAAAWwAAAA2AAAANh/5WMhoaGVhAAABpAAAACEAAAAkB30DBGhtdHgAAAI4AAADLAAACBhnFk/CbG9jYQAACPAAAAQOAAAEDhVI8U9tYXhwAAAByAAAAB0AAAAgAjQHFG5hbWUAAGPMAAACMgAABfqpMNnAcG9zdAAAZgAAAAc4AAANrRIjr5lwcmVwAAAI6AAAAAcAAAAHaAaMhQABAAAAAgAAzivE) format('woff');
+      }
+      text {
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 20px;
+      }
+    </style>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="transparent" rx="10"/>
+ <path d="M10 10"/>
+
+  <!-- Points -->
+  <circle cx="20" cy="20" r="5" fill="#ebb710"/>
+      <path d="M 230 80
+           A 45 45, 0, 1, 0, 275 125
+           L 275 80 Z" fill="#ebb710"/>
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="black">SNARKY PUPPY</text>
+</svg>
+
+

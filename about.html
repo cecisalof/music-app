@@ -19,7 +19,11 @@
             <!--About-->
             <section>
                 <div>
-                    <img class="main-band" src="src/assets/main-band.jpg" alt="">
+                    <picture class="band-img">
+                        <source srcset="src/assets/main-band.jpg" type="image/avif">
+                        <source srcset="src/assets/main-band.jpg" type="image/webp"> 
+                        <img class="main-band" src="src/assets/main-band.jpg" alt="">
+                    </picture>
                     <figure class="quote">
                         <q class="about" cite="https://snarkypuppy.com/press/">
                             Maybe you didn’t notice, but this is Snarky Puppy’s world, and the rest of us only live
@@ -77,8 +81,13 @@
                     </div>
                     <div class="award-list">
                         <div class="award-item">
-                            <img class="award-item" src="src/assets/about/2023-grammy-album.png"
+                            <picture>
+                                <source srcset="src/assets/about/2023-grammy-album.png?as=avif" type="image/avif" />
+                                <source srcset="src/assets/about/2023-grammy-album.png?as=webp" type="image/webp" />
+                                <source srcset="src/assets/about/2023-grammy-album.png?as=webp&width=800" type="image/webp" />
+                                <img class="award-item" src="src/assets/about/2023-grammy-album.png"
                                 alt="Winner: 2023 Grammy Award for Best Contemporary Instrumental Album">
+                            </picture>
                         </div>
                         <div class="award-item">
                             <img class="award-item" src="src/assets/about/2023-grammy-album.png" alt="">
@@ -155,10 +164,10 @@
         <div class="footer-container">
             <div>
                 <ul class="footer-list">
-                    <li><a href="#">About</a></li>
-                    <li class="bullets"><a href="#">Press</a></li>
-                    <li class="bullets"><a href="#">Contact</a></li>
-                    <li class="bullets"><a href="#">""</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="bullets"><a href="about.html">About</a></li>
+                    <li class="bullets"><a href="music.html">Snarky World</a></li>
+                    <li class="bullets"><a href="detail.html">Blog</a></li>
                 </ul>
             </div>
             <div class="social-media">

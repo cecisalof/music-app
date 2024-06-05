@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
 @import "./config/index.css";
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
 
 html {
   font-family: 'Lato', sans-serif;
@@ -376,6 +377,9 @@ a.privacy:hover {
   margin: 8rem auto 5rem auto;
 }
 
+.band-img {
+  
+}
 .about-maintext {
   margin: 3rem 0;
   /* font-size: 1.3em; */
@@ -416,7 +420,8 @@ q.about {
 }
 
 img.award-item {
-  max-width: 100%;
+  /*100% of the container*/
+  width: 100%; 
 }
 
 .award-item {

@@ -165,6 +165,14 @@ img.main-band {
   height: auto;
 }
 
+.clip-svg {
+  width: 205px;
+  height: 235px;
+  background-color: var(--dark-background);
+  clip-path: url(#myClip);
+}
+
+
 /* Navigation Bar */
 
 .menu {
@@ -325,6 +333,13 @@ button:hover {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+#clip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
 }
 
 #video {

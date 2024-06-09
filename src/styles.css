@@ -75,7 +75,6 @@ h3 {
 
   h3 {
     font-size: 1.5em;
-    text-align: center;
   }
 }
 
@@ -83,7 +82,11 @@ p {
   font-size: 1.1em;
 }
 
-/* @media (min-width: 1024) {
+.container {
+  width: 85vw;
+  margin: 5rem auto;
+}
+/* @media (min-width: 1024px) {
   .container {
     width: 85vw;
     margin: 5rem auto;
@@ -327,6 +330,8 @@ button:hover {
   /* centers items horizontally */
   align-items: center;
   /* centers items vertically */
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .video-wrapper {
@@ -380,7 +385,7 @@ button:hover {
   .disc-title {
     text-align: center;
   }
-  .news-btn {
+  .immigrance-btn {
     display: flex;
     justify-content: center;
   }

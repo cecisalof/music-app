@@ -403,7 +403,7 @@ button:hover {
 }
 
 /* Laptop View */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
@@ -711,7 +711,7 @@ iframe {
   grid-gap: 4rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .blog-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -721,7 +721,7 @@ iframe {
   margin: 4rem 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .blog-columns {
     margin: 0;
   }

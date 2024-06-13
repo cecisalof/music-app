@@ -352,6 +352,15 @@ button:hover {
   grid-auto-rows: minmax(27rem, auto);
 }
 
+
+.music-main-columns {
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  grid-auto-rows: minmax(27rem, auto);
+}
+
 .news-img {
   width: 100%;
 }
@@ -375,16 +384,18 @@ button:hover {
     grid-gap: 50px;
   }
 
-  .discography { 
+  .discography, .music-main-columns { 
     grid-template-columns: auto;
-    grid-gap: 20px;
+    grid-gap: 0px;
     justify-content: center;
-    padding: 2rem;
+    align-items: center;
+    grid-auto-rows: minmax(10rem, auto);
   }
 
-  .disc-title {
+  /* .disc-title {
     text-align: center;
-  }
+  } */
+
   .immigrance-btn {
     display: flex;
     justify-content: center;
@@ -417,7 +428,7 @@ button:hover {
     padding: 2rem;
   }
 
-  .discography { 
+  .discography, .music-main-columns { 
     grid-template-columns: 1fr 1fr;
     margin: 2rem;
     padding: 2rem;
@@ -611,6 +622,14 @@ a.privacy {
   width: 100%;
 }
 
+.music-main {
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 80px;
+  grid-auto-rows: minmax(27rem, auto);
+}
+
 #header-banner {
   display: flex;
   justify-content: center;
@@ -632,13 +651,25 @@ a.privacy {
   font-size: 80px;
 }
 
-
-
 .disc-title {
   margin-top: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  #header-bannerText {
+    font-size: 40px;
+  }
 
+  .disc-title {
+    margin-top: 3rem;
+  }
+} 
+
+@media (max-width: 768px) {
+  #header-bannerText {
+    font-size: 40px;
+  }
+} 
 
 .btn-container {
   margin: 1rem 0

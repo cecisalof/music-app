@@ -496,7 +496,8 @@ a.privacy:hover {
 
 .container-about {
   width: 85vw;
-  margin: 8rem auto 5rem auto;
+    /* needs review*/
+  margin: 10rem auto 5rem auto;
 }
 
 .about-maintext {
@@ -560,7 +561,8 @@ img.award-item {
 
 .about-video {
   background-color: var(--main-background);
-  padding: 10rem;
+  /* needs review*/
+  padding: 3rem 3rem 6rem 3rem;
 }
 
 figure.video-about {

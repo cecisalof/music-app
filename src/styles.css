@@ -570,7 +570,6 @@ img.award-item {
 
 .about-video {
   background-color: var(--main-background);
-  /* needs review*/
   padding: 3rem 3rem 6rem 3rem;
 }
 
@@ -578,6 +577,18 @@ figure.video-about {
   height: 30rem;
 }
 
+@media (max-width: 1440px) {
+  .award-item {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1200px) {
+  .award-item {
+    margin: 10px 10px;
+    transform: scale(1);
+  }
+}
 
 @media (max-width: 768px) {
   .about-video {
@@ -590,6 +601,16 @@ figure.video-about {
 
   .figcaption-free-fall  {
     display: none;
+  }
+
+  .award-item:nth-child(1),
+  .award-item:nth-child(2),
+  .award-item:nth-child(3) {
+    flex-basis: 25%;
+  }
+
+  .award-list {
+    justify-content: flex-start;
   }
 }
 

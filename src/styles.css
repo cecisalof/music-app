@@ -579,11 +579,34 @@ figure.video-about {
   height: 30rem;
 }
 
-.youtube-video {
+
+@media (max-width: 768px) {
+  .about-video {
+    padding: 1rem 0;
+  }
+  
+  figure.video-about {
+    height: 20rem;
+  }
+
+  .figcaption-free-fall  {
+    display: none;
+  }
+}
+
+@media (max-width: 464px) {
+  
+  figure.video-about {
+    height: 15rem;
+  }
+}
+
+
+/* .youtube-video {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* NETWORK BANNER */
 
@@ -697,12 +720,12 @@ iframe {
   /* Avoid space between figura & figcaption */
 }
 
-.figcaption {
+.figcaption, .figcaption-free-fall {
   background-color: rgb(244, 246, 247);
   font-size: 0.8em;
   padding: 24px 16px;
 }
-
+ 
 .youtube {
   display: block;
   text-align: center;

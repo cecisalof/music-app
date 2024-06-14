@@ -630,6 +630,12 @@ figure.video-about {
   min-height: 400px;
 }
 
+@media (max-width: 768px) {
+  .container-networks{
+    min-height: auto;
+  }
+}
+
 .networks-row {
   display: flex;
   align-items: center;

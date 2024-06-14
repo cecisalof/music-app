@@ -495,14 +495,24 @@ a.privacy:hover {
 /* About page*/
 
 .container-about {
-  width: 85vw;
-    /* needs review*/
-  margin: 10rem auto 5rem auto;
+  margin: 10rem 5rem;
 }
 
 .about-maintext {
   margin: 3rem 0;
   /* font-size: 1.3em; */
+}
+
+@media (max-width: 768px) {
+  .container-about {
+    margin: 10rem 2rem;
+  }
+}
+
+@media (max-width: 464px) {
+  .container-about {
+    margin: 10rem 1rem;
+  }
 }
 
 /* Border color animation */

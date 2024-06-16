@@ -169,29 +169,38 @@ img.main-band {
 }
 
 #clip-container {
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 200px;
-  /* Adjust size as needed */
-  height: 200px;
-  /* Adjust size as needed */
   overflow: hidden;
 }
 
 .clip-svg {
-  width: 205px;
-  height: 235px;
+  width: 100%;
+  height: 100%;
   background-color: var(--dark-background);
   clip-path: url(#myClip);
 }
 
 svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  display: none; /* Hide the SVG element itself */
+}
+@keyframes moveClip {
+  0% {
+    clip-path: circle(100px at 100px 100px);
+  }
+  50% {
+    clip-path: circle(100px at 350px 350px);
+  }
+  100% {
+    clip-path: circle(100px at 100px 100px);
+  }
+}
+
+.clip-svg {
+  animation: moveClip 10s infinite;
 }
 
 /* Navigation Bar */

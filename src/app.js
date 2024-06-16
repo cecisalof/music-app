@@ -7,3 +7,13 @@ document.querySelectorAll('.active').forEach((link) => {
         link.setAttribute("aria-current", "page");
     }
 });
+
+/* Getting bounging box for svg animation */
+
+// let svgElement = document.getElementById('svg_animated');
+// console.log(svgElement);
+// bbbox = svgElement.getBBox();
+// console.log(bbbox);
+
+
+/* zoom in svg element */

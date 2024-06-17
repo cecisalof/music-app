@@ -14,7 +14,23 @@
 
 <body>
     <!-- Menu Navigation Bar -->
-    <include src="./header.html"></include>
+    <!-- <include src="./header.html"></include> -->
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html" class="logo-anchor"><img class="logo-anchor" src="src/assets/logo-new.svg"
+                        alt=""></a>
+            </div>
+            <div class="list-container">
+                <ul class="unordered-list" id="nav-list">
+                    <li><a href="./about.html" class="active">About</a></li>
+                    <li><a href="./music.html" class="active">Snarky World</a></li>
+                    <li><a href="./detail.html" class="active">Blog</a></li>
+                    <li><a href="./links.html" class="active">Enlaces</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
         <!-- Breadcrumb -->
         <nav aria-label="Breadcrumb" class="breadcrumb">
@@ -60,8 +76,7 @@
                                 srcset=".\src\assets\detail\Tablet-640.jpg?as=webp&width=600&dpr=2 2x, .\src\assets\detail\Tablet-640.jpg?as=webp&width=600&dpr=1 1x"
                                 type="image/webp" media="(min-width: 48em)" sizes="(max-width: 48em)" />
                             <!-- Imagen predeterminada para navegadores que no soportan picture -->
-                            <img src=".\src\assets\detail\Desktop-800-art.jpg?width=400&dpr=1"
-                                alt="Imagen de prueba" />
+                            <img src=".\src\assets\detail\Desktop-800-art.jpg?width=400&dpr=1" alt="Imagen de prueba" />
                         </picture>
                         <figcaption class="figcaption2">September 30, 2022</figcaption>
                     </figure>

@@ -30,7 +30,7 @@ body {
 
 body#home-page {
   background: #000;
-  background-image: url('../src/assets/cover/main banner-yellow.png');
+  background-image: url('../src/assets/cover/main-banner-yellow.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -274,7 +274,7 @@ svg {
   justify-content: center;
   margin-top: 10rem;
   height: 42rem;
-  background-image: url('../src/assets/main-banner.png');
+  background-image: url('../src/assets/main-banner.jpg');
   background-size: cover;
 }
 
@@ -725,7 +725,7 @@ a.privacy {
   justify-content: center;
   margin-top: 10rem;
   height: 20rem;
-  background-image: url('../src/assets/music&video-banner.png');
+  background-image: url('../src/assets/music&video-banner.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -884,6 +884,18 @@ iframe {
   /* border-radius: 100%; */
   width: 90%;
 }
+
+@media (max-width: 767px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-img {
+    /* border-radius: 100%; */
+    width: 60%;
+  }
+}
+
 
 .article-img {
   width: 100%;

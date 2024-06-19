@@ -836,11 +836,12 @@ iframe {
 .mLeague-container {
   display: flex;
   justify-content: center;
+  margin: 40px;
 }
 
-.mLeague {
+/* .mLeague {
   padding: 30px;
-}
+} */
 
 @media (max-width: 1280px) {
   .blog-wrapper {

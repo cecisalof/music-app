@@ -838,7 +838,7 @@ iframe {
 .blog-wrapper {
   display: grid;
   grid-template-columns: 1fr 30rem;
-  grid-gap: 10rem;
+  grid-gap: 5rem;
 }
 
 .mLeague-container {

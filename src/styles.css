@@ -1046,7 +1046,7 @@ footer {
   font-size: 0.8em;
 }
 
-.align-center {
+.align-center, .disc-img-container {
   display: flex;
   justify-content: center;
 }

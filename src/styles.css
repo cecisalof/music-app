@@ -871,7 +871,7 @@ iframe {
   display: grid;
   grid-template-columns: 15rem 1fr;
   grid-gap: 5px;
-  margin: 2rem 0;
+  margin: 2rem;
   border-bottom: rgba(0, 0, 0, 0.5) dotted;
   padding: 1em 0;
 }

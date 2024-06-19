@@ -1045,3 +1045,8 @@ footer {
   margin: 30px 2rem;
   font-size: 0.8em;
 }
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}

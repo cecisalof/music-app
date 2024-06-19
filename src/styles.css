@@ -278,11 +278,19 @@ svg {
   background-size: cover;
 }
 
+
+@media (max-width: 768px) {
+  #banner {
+    background-image: url('../src/assets/main-banner-art.jpg');
+  }
+}
+
 #bannerText {
   color: white;
   text-align: center;
   align-self: center;
   font-weight: normal;
+  font-size: 1.5em;
 }
 
 @media (min-width: 1200px) {

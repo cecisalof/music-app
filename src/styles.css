@@ -283,6 +283,7 @@ svg {
 @media (max-width: 768px) {
   #banner {
     background-image: url('../src/assets/main-banner-art.jpg');
+    height: 20rem;
   }
 }
 
@@ -438,6 +439,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     grid-auto-rows: minmax(10rem, auto);
+    margin: 5rem 1rem;
   }
 
   .immigrance-btn {
@@ -780,7 +782,12 @@ a.privacy {
 
   .disc-title {
     margin-top: 3rem;
-  }
+  } 
+}
+
+.align-center, .disc-img-container {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -1072,9 +1079,4 @@ footer {
   color: black;
   margin: 30px 2rem;
   font-size: 0.8em;
-}
-
-.align-center, .disc-img-container {
-  display: flex;
-  justify-content: center;
 }

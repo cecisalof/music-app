@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snarky Puppy</title>
-  <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="stylesheet" href="./src/styles.css">
   <!--making reference to fontAwesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href=".\src\assets\logo-pup-text.svg">
+  <link rel="icon" type="image/x-icon" href="./src/assets/logo-pup-text.svg">
   <script type="module" src="./src/app.js"></script>
 </head>
 
@@ -31,7 +31,7 @@
     </nav>
   </header>
   <main id="mainbanner">
-    <section id="banner">
+    <div id="banner">
       <div id="bannerText">
         <figure class="quote">
           <q cite="https://snarkypuppy.com/press/">
@@ -42,15 +42,14 @@
             &mdash; The New York Times</figcaption>
         </figure>
       </div>
-    </section>
+    </div>
     <div class="container">
       <section>
         <h1 class="sections">OUT NOW!</h1>
         <div class="discography disc-home">
           <div class="disc-img-container">
-            <iframe style="border-radius:12px"
-              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator" width="100%"
-              height="352" frameBorder="0" allowfullscreen=""
+            <iframe  style="border-radius:12px; width: 100%;" 
+              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator" allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"></iframe>
           </div>
@@ -59,11 +58,12 @@
             <p>Immigrance, the new Snarky Puppy studio album, is all about movement. “The idea here is that everything
               is fluid, that everything is always moving and that we’re all in a constant state of immigration,”
               explains Michael League.</p>
-            <a href="https://store.snarkypuppy.com/collections/empire-central" class="immigrance-btn" target="_blank">
-              <button class="secondary-btn">
+            <a href="https://store.snarkypuppy.com/collections/empire-central" class="immigrance-btn"
+              target="_blank">
+              <div class="secondary-btn">
                 Listen to <strong>Empire Central</strong> Now!
                 <span class="fa fa-chevron-right icon-right"></span>
-              </button>
+              </div>
             </a>
           </div>
         </div>
@@ -73,7 +73,7 @@
         <h1 class="sections">Latest news</h1>
         <div class="wrapper">
           <div class="news-columns">
-            <div id="news-img"><img src="src/assets/news1.jpg" alt="Ground up music festival poster" class="news-img">
+            <div><img src="src/assets/news1.jpg" alt="Ground up music festival poster" class="news-img">
             </div>
             <!-- // image atrubutions: https://imgur.com/4OUdN7l -->
             <p>Feb. 2-4, 2024</p>
@@ -87,7 +87,7 @@
             </p>
           </div>
           <div class="news-columns">
-            <div id="news-img"><img src="src/assets/news2.jpg" alt="Empire Central cover" class="news-img"></div>
+            <div><img src="src/assets/news2.jpg" alt="Empire Central cover" class="news-img"></div>
             <!-- // image atrubutions: https://imgur.com/4dhoxmJ -->
             <p> March 2024</p>
             <h3 class="news-title">'Empire Central' Blu-ray now available for pre-order!</h3>
@@ -103,7 +103,7 @@
             <a href="./detail.html" class="news-btn" target="_blank"> > Learn more</a>
           </div>
           <div class="news-columns">
-            <div id="news-img"><img src="src/assets/news3.jpg" alt="European festival poster" class="news-img"></div>
+            <div><img src="src/assets/news3.jpg" alt="European festival poster" class="news-img"></div>
             <!-- // image atrubutions: https://imgur.com/Hf7JxHP -->
             <p>April 2024</p>
             <h3 class="news-title">Snarky Puppy announces 2023 European festival dates!</h3>
@@ -119,7 +119,7 @@
     </div>
     <!--Spacer with clipping-->
     <div id="clip-container">
-      <img class="clip-svg" src="src/assets/logo-pup-text.svg" alt="Bulldog" />
+      <img class="clip-svg" src="src/assets/logo-pup-text.svg" alt="Bulldog">
       <svg width="0" height="0">
         <defs>
           <clipPath id="myClip">
@@ -135,8 +135,8 @@
       <div class="video-wrapper">
         <div class="video-columns">
           <figure class="video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ci1fI1fBFjU"
-              title="Snarky Puppy - Mean Green (Empire Central)" frameborder="0"
+            <iframe  style="height: 100%; width: 100%;"   src="https://www.youtube.com/embed/ci1fI1fBFjU"
+              title="Snarky Puppy - Mean Green (Empire Central)" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <figcaption class="figcaption">
@@ -147,8 +147,8 @@
         </div>
         <div class="video-columns">
           <figure class="video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dC3b3ul6dME"
-              title="Snarky Puppy - Belmont (Empire Central)" frameborder="0"
+            <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/dC3b3ul6dME"
+              title="Snarky Puppy - Belmont (Empire Central)" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <figcaption class="figcaption">
@@ -158,8 +158,8 @@
         </div>
         <div class="video-columns">
           <figure class="video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ODIpEI3GB_w"
-              title="Snarky Puppy - East Bay (Empire Central)" frameborder="0"
+            <iframe  style="height: 100%; width: 100%;"   src="https://www.youtube.com/embed/ODIpEI3GB_w"
+              title="Snarky Puppy - East Bay (Empire Central)" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <figcaption class="figcaption">
@@ -170,8 +170,8 @@
         </div>
         <div class="video-columns">
           <figure class="video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2DnALGkvXNs"
-              title="Snarky Puppy - Portal (Empire Central)" frameborder="0"
+            <iframe  style="height: 100%; width: 100%;"  src="https://www.youtube.com/embed/2DnALGkvXNs"
+              title="Snarky Puppy - Portal (Empire Central)"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <figcaption class="figcaption">

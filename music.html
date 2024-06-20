@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <!--making reference to fontAwesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
   <script type="module" src="./src/app.js"></script>
-  <link rel="icon" type="image/x-icon" href=".\src\assets\logo-pup-text.svg">
+  <link rel="icon" type="image/x-icon" href="./src/assets/logo-pup-text.svg">
   <title>Snarky World</title>
 </head>
 
@@ -32,53 +32,52 @@
     </nav>
   </header>
   <main class="music-container">
-    <section class="main-section-video">
-      <section id="header-banner">
+    <div class="main-section-video">
+      <div id="header-banner">
         <h1 id="header-bannerText"> Snarky World </h1>
-      </section>
+      </div>
       <!--Discography-->
-      <section>
+      <div>
         <div class="music-main-columns">
           <div class="align-center">
             <figure class="article-img-figure">
               <picture>
                 <!-- Para pantallas extra grandes -->
                 <source
-                  srcset=".\src\assets\detail\Desktop-800-art.jpg?as=avif&width=600&dpr=2 2x, .\src\assets\detail\Desktop-800-art.jpg?as=avif&width=600&dpr=1 1x"
-                  type="image/avif" media="(min-width: 100em)" />
+                  srcset="./src/assets/detail/Desktop-800-art.jpg?as=avif&width=600&dpr=2 2x, ./src/assets/detail/Desktop-800-art.jpg?as=avif&width=600&dpr=1 1x"
+                  type="image/avif" media="(min-width: 100em)">
                 <source
-                  srcset=".\src\assets\detail\Desktop-800-art.jpg?as=webp&width=600&dpr=2 2x, .\src\assets\detail\Desktop-800-art.jpg?as=webp&width=600&dpr=1 1x"
-                  type="image/webp" media="(min-width: 100em)" />
+                  srcset="./src/assets/detail/Desktop-800-art.jpg?as=webp&width=600&dpr=2 2x, ./src/assets/detail/Desktop-800-art.jpg?as=webp&width=600&dpr=1 1x"
+                  type="image/webp" media="(min-width: 100em)">
                 <!-- Para pantallas grandes -->
                 <source
-                  srcset=".\src\assets\detail\Desktop-540.jpg?as=avif&width=500&dpr=2 2x, .\src\assets\detail\Desktop-540.jpg?as=avif&width=500&dpr=1 1x"
-                  type="image/avif" media="(min-width: 75em)" />
+                  srcset="./src/assets/detail/Desktop-540.jpg?as=avif&width=500&dpr=2 2x, ./src/assets/detail/Desktop-540.jpg?as=avif&width=500&dpr=1 1x"
+                  type="image/avif" media="(min-width: 75em)">
                 <source
-                  srcset=".\src\assets\detail\Desktop-540.jpg?as=webp&width=500&dpr=2 2x, .\src\assets\detail\Desktop-540.jpg?as=webp&width=500&dpr=1 1x"
-                  type="image/webp" media="(min-width: 75em)" />
+                  srcset="./src/assets/detail/Desktop-540.jpg?as=webp&width=500&dpr=2 2x, ./src/assets/detail/Desktop-540.jpg?as=webp&width=500&dpr=1 1x"
+                  type="image/webp" media="(min-width: 75em)">
                 <!-- Para pantallas medianas -->
                 <source
-                  srcset=".\src\assets\detail\Desktop-540.jpg?as=avif&width=400&dpr=2 2x, .\src\assets\detail\Desktop-400-art.jpg?as=avif&width=400&dpr=1 1x"
-                  type="image/avif" media="(min-width: 64em)" />
+                  srcset="./src/assets/detail/Desktop-540.jpg?as=avif&width=400&dpr=2 2x, ./src/assets/detail/Desktop-400-art.jpg?as=avif&width=400&dpr=1 1x"
+                  type="image/avif" media="(min-width: 64em)">
                 <source
-                  srcset=".\src\assets\detail\Desktop-540.jpg?as=webp&width=400&dpr=2 2x, .\src\assets\detail\Desktop-400-art.jpg?as=webp&width=400&dpr=1 1x"
-                  type="image/webp" media="(min-width: 64em)" />
+                  srcset="./src/assets/detail/Desktop-540.jpg?as=webp&width=400&dpr=2 2x, ./src/assets/detail/Desktop-400-art.jpg?as=webp&width=400&dpr=1 1x"
+                  type="image/webp" media="(min-width: 64em)">
                 <!-- Para pantallas pequeñas -->
                 <source
-                  srcset=".\src\assets\detail\Desktop-400-art.jpg?as=avif&width=320&dpr=2 2x, .\src\assets\detail\Desktop-400-art.jpg?as=avif&width=320&dpr=1 1x"
-                  type="image/avif" media="(min-width: 48em)"/>
+                  srcset="./src/assets/detail/Desktop-400-art.jpg?as=avif&width=320&dpr=2 2x, ./src/assets/detail/Desktop-400-art.jpg?as=avif&width=320&dpr=1 1x"
+                  type="image/avif" media="(min-width: 48em)">
                 <source
-                  srcset=".\src\assets\detail\Desktop-400-art.jpg?as=webp&width=320&dpr=2 2x, .\src\assets\detail\Desktop-400-art.jpg?as=webp&width=320&dpr=1 1x"
-                  type="image/webp" media="(min-width: 48em)" />
+                  srcset="./src/assets/detail/Desktop-400-art.jpg?as=webp&width=320&dpr=2 2x, ./src/assets/detail/Desktop-400-art.jpg?as=webp&width=320&dpr=1 1x"
+                  type="image/webp" media="(min-width: 48em)">
                 <!-- Imagen predeterminada para navegadores que no soportan picture -->
-                <img src=".\src\assets\detail\Desktop-400-art.jpg?width=400&dpr=2"
-                  alt="Empire central disc cover" />
+                <img src="./src/assets/detail/Desktop-400-art.jpg?width=400&dpr=2" alt="Empire central disc cover">
               </picture>
             </figure>
           </div>
           <div>
             <div>
-              <h1 class="disc-title">Empire Central</h1>
+              <div class="disc-title">Empire Central</div>
               <span>September 30, 2022</span>
               <p class="text-highligth">The 4-time GRAMMY Award winners return to Dallas in their classic live-in-studio
                 recording format.</p>
@@ -87,18 +86,14 @@
                 without sounding derivative. Rather, it conjures from them music that’s fresh and original.</p>
               <div class="btn-container">
                 <a href="./detail.html" class="news-btn">
-                  <button class="">
-                    Learn More
-                    <span class="fa fa-chevron-right icon-right"></span>
-                  </button>
+                  Learn More
+                  <span class="fa fa-chevron-right icon-right"></span>
                 </a>
               </div>
             </div>
-            <a href="https://store.snarkypuppy.com/collections/empire-central" class="news-btn">
-              <button class="secondary-btn">
-                Listen to <strong>Empire Central</strong> Now!
-                <span class="fa fa-chevron-right icon-right"></span>
-              </button>
+            <a href="https://store.snarkypuppy.com/collections/empire-central" class="secondary-btn">
+              Listen to <strong>Empire Central</strong> Now!
+              <span class="fa fa-chevron-right icon-right"></span>
             </a>
           </div>
           <!-- <div class="disc-img-container">
@@ -111,34 +106,31 @@
         </div>
         <div class="music-main-columns">
           <div class="disc-img-container">
-            <iframe style="border-radius:12px; max-width: 600px;"
-              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator" width="100%"
-              height="352" frameBorder="0" allowfullscreen=""
+            <iframe style="border-radius:12px; width: 100%; max-width: 600px;"
+              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator" allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"></iframe>
           </div>
           <div>
-            <h1 class="disc-title">Immigrance</h1>
+            <div class="disc-title">Immigrance</div>
             <span>March 15, 2019</span>
             <p>Immigrance, the new Snarky Puppy studio album, is all about movement. “The idea here is that everything
               is fluid, that everything is always moving and that we’re all in a constant state of immigration,”
               explains Michael League.</p>
-            <a href="https://store.snarkypuppy.com/collections/immigrance" class="news-btn">
-              <button class="secondary-btn">
-                Listen to <strong>Immigrance</strong> Now!
-                <span class="fa fa-chevron-right icon-right"></span>
-              </button>
+            <a href="https://store.snarkypuppy.com/collections/immigrance" class="secondary-btn">
+              Listen to <strong>Immigrance</strong> Now!
+              <span class="fa fa-chevron-right icon-right"></span>
             </a>
           </div>
         </div>
-      </section>
+      </div>
       <section>
         <h2 class="sections">Video</h2>
         <div class="video-wrapper">
           <div class="video-columns">
             <figure class="video">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ci1fI1fBFjU"
-                title="Snarky Puppy - Mean Green (Empire Central)" frameborder="0"
+              <iframe style="width: 100%; height:100%;" src="https://www.youtube.com/embed/ci1fI1fBFjU"
+                title="Snarky Puppy - Mean Green (Empire Central)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               <figcaption class="figcaption">
@@ -149,8 +141,8 @@
           </div>
           <div class="video-columns">
             <figure class="video">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dC3b3ul6dME"
-                title="Snarky Puppy - Belmont (Empire Central)" frameborder="0"
+              <iframe style="width: 100%; height:100%;" src="https://www.youtube.com/embed/dC3b3ul6dME"
+                title="Snarky Puppy - Belmont (Empire Central)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               <figcaption class="figcaption">
@@ -160,39 +152,40 @@
           </div>
           <div class="video-columns">
             <figure class="video">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ODIpEI3GB_w"
-                title="Snarky Puppy - East Bay (Empire Central)" frameborder="0"
+              <iframe style="width: 100%; height:100%;" src="https://www.youtube.com/embed/ODIpEI3GB_w"
+                title="Snarky Puppy - East Bay (Empire Central)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               <figcaption class="figcaption">
-                <strong>East Bay. </strong> Written by Chris Bullock. Arranged by Chris Bullock, Justin Stanton and Snarky
+                <strong>East Bay. </strong> Written by Chris Bullock. Arranged by Chris Bullock, Justin Stanton and
+                Snarky
                 Puppy.
               </figcaption>
             </figure>
           </div>
           <div class="video-columns">
             <figure class="video">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2DnALGkvXNs"
-                title="Snarky Puppy - Portal (Empire Central)" frameborder="0"
+              <iframe style="width: 100%; height:100%;" src="https://www.youtube.com/embed/2DnALGkvXNs"
+                title="Snarky Puppy - Portal (Empire Central)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               <figcaption class="figcaption">
-                <strong> Portal. </strong> Written by Marcelo Woloski. Arranged by Marcelo Woloski, Michael League, Shaun
+                <strong> Portal. </strong> Written by Marcelo Woloski. Arranged by Marcelo Woloski, Michael League,
+                Shaun
                 Martin, and Snarky Puppy.
               </figcaption>
             </figure>
           </div>
         </div>
       </section>
-    
+
       <div class="youtube">
         <h4>For all official Snarky Puppy videos <br> as well as releases from our GroundUP family,</h4>
-        <a href="https://www.youtube.com/user/groundUPmusicNYC" target="_blank">
-          <button class="secondary-btn"> Check us out on <b>Youtube</b></button>
+        <a href="https://www.youtube.com/user/groundUPmusicNYC" target="_blank" class="news-btn">
+          Check us out on <b>Youtube</b>
         </a>
       </div>
-      </div>
-    </section>
+    </div>
   </main>
   <!-- Footer Section -->
   <footer>

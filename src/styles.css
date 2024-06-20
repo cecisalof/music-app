@@ -1084,3 +1084,13 @@ footer {
   margin: 30px 2rem;
   font-size: 0.8em;
 }
+
+.attributions {
+  margin: 20px;
+}
+
+a.link {
+  text-decoration: none;
+  color: var(--varColor);
+  font-weight: bold;
+}

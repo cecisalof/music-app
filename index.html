@@ -7,7 +7,7 @@
   <title>Snarky Puppy</title>
   <link rel="stylesheet" href="./src/styles.css">
   <link rel="icon" type="image/x-icon" href="./src/assets/logo-pup-text.svg">
-  <link fetchpriority="high" rel="preload" href="./src/assets/main-banner.jpg" as="image">
+  <!-- <link fetchpriority="high" rel="preload" href="./src/assets/main-banner.jpg" as="image"> -->
   <!-- Preconnect para establecer conexiones tempranas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,6 @@
   <!-- Incluir el archivo CSS externo -->
   <link rel="stylesheet" href="./src/styles.css">
   <script type="module" src="./src/app.js" async></script>
-
 </head>
 
 <body>
@@ -194,10 +193,17 @@
       <div class="video-wrapper">
         <div class="video-columns">
           <figure class="video">
-            <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/ci1fI1fBFjU"
+            <iframe class="lazyframe" 
+            style="height: 100%; width: 100%; background-size: cover;"
+            data-src="https://youtu.be/ci1fI1fBFjU?si=V7QpO9UvEpbewugA" 
+            data-vendor="youtube"
+            data-title=""
+            frameborder="0" allowtransparency="true"  allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <!-- <iframe class="lazyframe" style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/ci1fI1fBFjU"
               title="Snarky Puppy - Mean Green (Empire Central)"
               allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe> -->
             <figcaption class="figcaption">
               <strong>Mean Green. </strong> Written by Nate Werth. Arranged by Michael League, Nate Werth, and
               Snarky Puppy.

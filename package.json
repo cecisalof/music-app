@@ -11,7 +11,7 @@
     "parcel:dev": "parcel",
     "parcel:build": "parcel build index.html --public-url /music-app/",
     "clean": "rimraf dist .parcel-cache",
-     "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Cecilia Losada",
   "license": "ISC",
@@ -22,5 +22,8 @@
     "posthtml-include": "^2.0.1",
     "rimraf": "^5.0.5",
     "sharp": "^0.31.1"
+  },
+  "dependencies": {
+    "lazyframe": "^2.2.7"
   }
 }

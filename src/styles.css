@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
 @import "./config/index.css";
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
 
 html {
   font-family: 'Lato', sans-serif;
@@ -22,7 +21,7 @@ body {
   margin: 0;
   /* This solves footer margin issue */
   grid: 'header' auto 'nav' auto 'main' 1fr 'footer' auto / 1fr;
-  background-image: url(../src/assets/light-paper.jpg);
+  background-image: url(../src/assets/light-paper.webp);
   background-position: center;
   background-size: 800px;
 }
@@ -343,6 +342,20 @@ button:hover {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2') format('woff2'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa-chevron-right:before {
+  font-family: 'FontAwesome';
+  content: '\f054';
+  font-style: normal;
+  font-weight: normal;
+}
 
 
 /* .fa-chevron-right:before {
@@ -513,7 +526,7 @@ button:hover {
   justify-content: center; */
   margin: 4rem 0;
   padding: 2rem 0;
-  background-image: url('../src/assets/dark-paper.jpg');
+  background-image: url('../src/assets/dark-paper.webp');
   background-size: cover;
   background-position: center center;
 }

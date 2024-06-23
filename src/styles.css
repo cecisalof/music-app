@@ -28,14 +28,14 @@ body {
 }
 
 
-body#home-page {
+/* body#home-page {
   background: #000;
   background-image: url('../src/assets/cover/main-banner-yellow.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-}
+} */
 
 h1 {
   font-family: Arvo, sans-serif;

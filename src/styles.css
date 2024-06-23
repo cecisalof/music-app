@@ -340,7 +340,7 @@ button:hover {
 
 
 
-.fa-chevron-right:before {
+/* .fa-chevron-right:before {
   content: "\f054";
 }
 
@@ -349,7 +349,7 @@ button:hover {
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
-}
+} */
 
 .icon-right {
   margin-left: 10px;
@@ -445,6 +445,7 @@ button:hover {
   .immigrance-btn {
     display: flex;
     justify-content: center;
+    text-decoration: none;
   }
 
   .wrapper2 {

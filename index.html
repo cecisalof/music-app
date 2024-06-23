@@ -6,11 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snarky Puppy</title>
   <link rel="stylesheet" href="./src/styles.css">
-  <!--making reference to fontAwesome -->
-  <!-- <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> -->
   <link rel="icon" type="image/x-icon" href="./src/assets/logo-pup-text.svg">
   <link fetchpriority="high" rel="preload" href="./src/assets/main-banner.jpg" as="image">
+  <!-- Preconnect para establecer conexiones tempranas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Preload para cargar las fuentes de forma anticipada -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+      <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap"
+      rel="stylesheet">
+  </noscript>
+  <!-- Incluir el archivo CSS externo -->
+  <link rel="stylesheet" href="./src/styles.css">
   <script type="module" src="./src/app.js" async></script>
+
 </head>
 
 <body>
@@ -20,48 +39,49 @@
     <div>
       <picture>
         <source
-        srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
-        type="image/avif" media="(min-width: 100em)">
+          srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
+          type="image/avif" media="(min-width: 100em)">
         <source
-        srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
-        type="image/webp" media="(min-width: 100em)">
-  
-        <source
-        srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
-        type="image/avif" media="(min-width: 75em)">
-        <source
-        srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
-        type="image/webp" media="(min-width: 75em)">
-  
-        <source
-        srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
-        type="image/avif" media="(min-width: 64em)">
-        <source
-        srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
-        type="image/webp" media="(min-width: 64em)">
-  
-        <source
-        srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
-        type="image/avif" media="(min-width: 48em)">
-        <source
-        srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
-        type="image/webp" media="(min-width: 48em)">
-  
-        <source
-        srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
-        type="image/avif" media="(min-width: 48em)">
-        <source
-        srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
-        type="image/webp" media="(min-width: 48em)">
+          srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
+          type="image/webp" media="(min-width: 100em)">
 
         <source
-        srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
-        type="image/avif" media="(min-width: 29em)">
+          srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
+          type="image/avif" media="(min-width: 75em)">
         <source
-        srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
-        type="image/webp" media="(min-width: 29em)">
-  
-        <img src="./src/assets/home/main-banner-art400.jpg" alt="Snarky Puppy in concert" style="width: 100vw;" id="banner">
+          srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
+          type="image/webp" media="(min-width: 75em)">
+
+        <source
+          srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
+          type="image/avif" media="(min-width: 64em)">
+        <source
+          srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
+          type="image/webp" media="(min-width: 64em)">
+
+        <source
+          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          type="image/avif" media="(min-width: 48em)">
+        <source
+          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          type="image/webp" media="(min-width: 48em)">
+
+        <source
+          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          type="image/avif" media="(min-width: 48em)">
+        <source
+          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          type="image/webp" media="(min-width: 48em)">
+
+        <source
+          srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
+          type="image/avif" media="(min-width: 29em)">
+        <source
+          srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
+          type="image/webp" media="(min-width: 29em)">
+
+        <img src="./src/assets/home/main-banner-art400.jpg" alt="Snarky Puppy in concert" style="width: 100vw;"
+          id="banner">
       </picture>
       <div id="bannerText">
         <figure class="quote">
@@ -79,9 +99,9 @@
         <h1 class="sections">OUT NOW!</h1>
         <div class="discography disc-home">
           <div class="disc-img-container">
-            <iframe  style="border-radius:12px; width: 100%; height: 400px;" 
-              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator" allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            <iframe style="border-radius:12px; width: 100%; height: 400px;"
+              src="https://open.spotify.com/embed/album/6a1HtLhd3zNccXRNUZ23ge?utm_source=generator"
+              allow="fullscreen; autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"></iframe>
           </div>
           <div>
@@ -89,8 +109,7 @@
             <p>Immigrance, the new Snarky Puppy studio album, is all about movement. “The idea here is that everything
               is fluid, that everything is always moving and that we’re all in a constant state of immigration,”
               explains Michael League.</p>
-            <a href="https://store.snarkypuppy.com/collections/empire-central" class="immigrance-btn"
-              target="_blank">
+            <a href="https://store.snarkypuppy.com/collections/empire-central" class="immigrance-btn" target="_blank">
               <div class="secondary-btn">
                 Listen to <strong>Empire Central</strong> Now!
                 <span class="fa fa-chevron-right icon-right"></span>
@@ -131,7 +150,12 @@
               store before it hits the regular retailers. For fans attending Snarky Puppy’s upcoming fall tour, the
               Blu-ray will be available to purchase at the merch booth.
             </p>
-            <a href="./detail.html" class="news-btn" target="_blank"> > Learn more</a>
+            <a href="./detail.html" class="news-btn" target="_blank">
+              <div>
+                Learn more
+                <span class="fa fa-chevron-right icon-right"></span>
+              </div>
+            </a>
           </div>
           <div class="news-columns">
             <div><img loading="lazy" src="src/assets/news3.webp" alt="European festival poster" class="news-img"></div>
@@ -142,8 +166,12 @@
               This July the Pups are back at it again in Europe, with dates in France, Belgium, the Netherlands,
               Germany, Italy, Finland, Norway, and Portugal!
             </p>
-            <a href="https://www.instagram.com/snarkypuppy/p/CuPdEB-I7nq/" class="news-btn" target="_blank"> > Learn
-              more</a>
+            <a href="https://www.instagram.com/snarkypuppy/p/CuPdEB-I7nq/" class="news-btn" target="_blank">
+              <div>
+                Learn more
+                <span class="fa fa-chevron-right icon-right"></span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -166,12 +194,12 @@
       <div class="video-wrapper">
         <div class="video-columns">
           <figure class="video">
-            <iframe  style="height: 100%; width: 100%;"   src="https://www.youtube.com/embed/ci1fI1fBFjU"
-              title="Snarky Puppy - Mean Green (Empire Central)" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/ci1fI1fBFjU"
+              title="Snarky Puppy - Mean Green (Empire Central)"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
             <figcaption class="figcaption">
-              <strong>Mean Green. </strong> ritten by Nate Werth. Arranged by Michael League, Nate Werth, and
+              <strong>Mean Green. </strong> Written by Nate Werth. Arranged by Michael League, Nate Werth, and
               Snarky Puppy.
             </figcaption>
           </figure>
@@ -179,9 +207,9 @@
         <div class="video-columns">
           <figure class="video">
             <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/dC3b3ul6dME"
-              title="Snarky Puppy - Belmont (Empire Central)" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+              title="Snarky Puppy - Belmont (Empire Central)"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
             <figcaption class="figcaption">
               <strong> Belmont. </strong> Written by Michael League. Arranged by Michael League and Snarky Puppy.
             </figcaption>
@@ -189,10 +217,10 @@
         </div>
         <div class="video-columns">
           <figure class="video">
-            <iframe  style="height: 100%; width: 100%;"   src="https://www.youtube.com/embed/ODIpEI3GB_w"
-              title="Snarky Puppy - East Bay (Empire Central)" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/ODIpEI3GB_w"
+              title="Snarky Puppy - East Bay (Empire Central)"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
             <figcaption class="figcaption">
               <strong>East Bay. </strong> Written by Chris Bullock. Arranged by Chris Bullock, Justin Stanton and
               Snarky Puppy.
@@ -201,10 +229,10 @@
         </div>
         <div class="video-columns">
           <figure class="video">
-            <iframe  style="height: 100%; width: 100%;"  src="https://www.youtube.com/embed/2DnALGkvXNs"
+            <iframe style="height: 100%; width: 100%;" src="https://www.youtube.com/embed/2DnALGkvXNs"
               title="Snarky Puppy - Portal (Empire Central)"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
             <figcaption class="figcaption">
               <strong> Portal. </strong> Written by Marcelo Woloski. Arranged by Marcelo Woloski, Michael League,
               Shaun Martin, and Snarky Puppy.
@@ -231,7 +259,12 @@
               evangelism, and over the last 8 years has maintained a more intense tour schedule than almost any band in
               the idiom with over 1,200 performances.
             </p>
-            <a href="./about.html" class="news-btn"> > Learn more</a>
+            <a href="./about.html" class="news-btn">
+              <div>
+                Learn more
+                <span class="fa fa-chevron-right icon-right"></span>
+              </div>
+            </a>
           </div>
           <div class="item2">
             <!-- image atrubutions: https://www.last.fm/es/music/Snarky+Puppy/+images/44900cf7d5144da9cd04dfeda0eba4fd -->
@@ -246,8 +279,8 @@
     <div class="footer-container">
       <div>
         <div class="logo">
-          <a href="index.html" class="logo-anchor"><img  loading="lazy" class="logo-anchor" src="src/assets/logo-new-black.svg"
-              alt="logo"></a>
+          <a href="index.html" class="logo-anchor"><img loading="lazy" class="logo-anchor"
+              src="src/assets/logo-new-black.svg" alt="logo"></a>
         </div>
         <ul class="footer-list">
           <li><a href="index.html">Home</a></li>

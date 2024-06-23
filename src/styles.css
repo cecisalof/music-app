@@ -274,18 +274,18 @@ svg {
   display: flex;
   justify-content: center;
   margin-top: 10rem;
-  height: 42rem;
-  background-image: url('../src/assets/main-banner.jpg');
-  background-size: cover;
+  /* max-height: 50rem; */
+  /* background-image: url('../src/assets/main-banner.jpg');
+  background-size: cover; */
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #banner {
     background-image: url('../src/assets/main-banner-art.jpg');
     height: 20rem;
   }
-}
+} */
 
 #bannerText {
   color: white;
@@ -293,13 +293,18 @@ svg {
   align-self: center;
   font-weight: normal;
   font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 @media (min-width: 1200px) {
   #bannerText {
     font-size: 40px;
     font-family: Arvo, sans-serif;
-    margin: 10rem;
+    margin: 5rem 0;
   }
 }
 
@@ -358,7 +363,7 @@ button:hover {
 @media (min-width: 768px) and (max-width: 1239px) {
   #bannerText {
     font-size: 2em;
-    margin: 6rem;
+    margin: 3rem 0;
   }
 }
 
@@ -578,6 +583,7 @@ a.privacy:hover {
   border-left: 5px solid var(--highlight);
   animation: myanim 5s infinite;
   background-position: bottom left;
+  width: 85vw;
 }
 
 @keyframes myanim {

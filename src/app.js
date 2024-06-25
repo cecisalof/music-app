@@ -19,12 +19,11 @@ document.querySelectorAll('.active').forEach((link) => {
 // console.log(bbbox);
 
 
-
 // Initialize lazyframe
 lazyframe('.lazyframe',  {
-    debounce: 250,
-    lazyload: true,
-    autoplay: false,
+    // debounce: 250,
+    // lazyload: true,
+    // autoplay: false,
 
 // Callbacks
   onLoad: (lazyframe) => console.log(lazyframe),

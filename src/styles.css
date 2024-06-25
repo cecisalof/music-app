@@ -1114,37 +1114,3 @@ a.link {
   font-weight: bold;
 }
 
-/*lazy load*/
-
-.lazyframe[data-vendor=youtube], .lazyframe[data-vendor=youtube_nocookie] {
-  background-color: #e52d27;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-
-.lazyframe[data-vendor=youtube]::before, .lazyframe[data-vendor=youtube_nocookie]::before {
-  padding-top: 56.25%;
-}
-.lazyframe::before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-top: 100%;
-}
-
-.lazyframe[data-vendor=youtube]::after, .lazyframe[data-vendor=youtube_nocookie]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 68px;
-  height: 48px;
-  margin-left: -34px;
-  margin-top: -24px;
-  background-image: url('./assets/youtube_player.png');
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  opacity: .81;
-  border: none;
-  z-index: 4;
-}

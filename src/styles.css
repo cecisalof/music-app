@@ -905,11 +905,13 @@ iframe {
 
 .blog-columns {
   margin: 4rem 0;
+  width: 90vw;
 }
 
 @media (max-width: 1023px) {
   .blog-columns {
     margin: 0;
+    width: 90vw;
   }
 }
 

@@ -391,14 +391,14 @@ button:hover {
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
+  grid-gap: 2em;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   /* centers items horizontally */
   align-items: center;
   /* centers items vertically */
-  margin: 1rem;
-  padding: 1rem;
+  /* margin: 1rem;
+  padding: 1rem; */
 }
 
 .video-wrapper {
@@ -595,7 +595,7 @@ a.privacy:hover {
   border-left: 5px solid var(--highlight);
   animation: myanim 5s infinite;
   background-position: bottom left;
-  width: 85vw;
+  /* width: 85vw; */
 }
 
 @keyframes myanim {
@@ -905,11 +905,13 @@ iframe {
 
 .blog-columns {
   margin: 4rem 0;
+  /* width: 90vw; */
 }
 
 @media (max-width: 1023px) {
   .blog-columns {
     margin: 0;
+    /* width: 90vw; */
   }
 }
 

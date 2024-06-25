@@ -7,6 +7,7 @@
   <title>Snarky Puppy</title>
   <link rel="stylesheet" href="./src/styles.css">
   <link rel="icon" type="image/x-icon" href="./src/assets/logo-pup-text.svg">
+  <link fetchpriority="high" rel="preload" href="./src/assets/home/main-banner.webp" as="image">
   <!-- <link fetchpriority="high" rel="preload" href="./src/assets/main-banner.jpg" as="image"> -->
   <!-- Preconnect para establecer conexiones tempranas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,42 +44,42 @@
           srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
           type="image/avif" media="(min-width: 100em)">
         <source
-          srcset="./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=avif&width=1920&dpr=1 1x"
+          srcset="./src/assets/home/main-banner.jpg?as=webp&width=1920&dpr=2 2x, ./src/assets/home/main-banner.jpg?as=webp&width=1920&dpr=1 1x"
           type="image/webp" media="(min-width: 100em)">
 
         <source
           srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
           type="image/avif" media="(min-width: 75em)">
         <source
-          srcset="./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=avif&width=1200&dpr=1 1x"
+          srcset="./src/assets/home/main-banner-1200.jpg?as=webp&width=1200&dpr=2 2x, ./src/assets/home/main-banner-1200.jpg?as=webp&width=1200&dpr=1 1x"
           type="image/webp" media="(min-width: 75em)">
 
         <source
           srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
           type="image/avif" media="(min-width: 64em)">
         <source
-          srcset="./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=avif&width=1024&dpr=1 1x"
+          srcset="./src/assets/home/main-banner-1024.jpg?as=webp&width=1024&dpr=2 2x, ./src/assets/home/main-banner-1024.jpg?as=webp&width=1024&dpr=1 1x"
           type="image/webp" media="(min-width: 64em)">
 
         <source
           srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
           type="image/avif" media="(min-width: 48em)">
         <source
-          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          srcset="./src/assets/home/main-banner-768.jpg?as=webp&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=webp&width=768&dpr=1 1x"
           type="image/webp" media="(min-width: 48em)">
 
         <source
           srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
           type="image/avif" media="(min-width: 48em)">
         <source
-          srcset="./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=avif&width=768&dpr=1 1x"
+          srcset="./src/assets/home/main-banner-768.jpg?as=webp&width=768&dpr=2 2x, ./src/assets/home/main-banner-768.jpg?as=webp&width=768&dpr=1 1x"
           type="image/webp" media="(min-width: 48em)">
 
         <source
           srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
           type="image/avif" media="(min-width: 29em)">
         <source
-          srcset="./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=avif&width=464&dpr=1 1x"
+          srcset="./src/assets/home/main-banner-art600.jpg?as=webp&width=464&dpr=2 2x, ./src/assets/home/main-banner-art600.jpg?as=webp&width=464&dpr=1 1x"
           type="image/webp" media="(min-width: 29em)">
 
         <img src="./src/assets/home/main-banner-art400.jpg" alt="Snarky Puppy in concert" style="width: 100vw;"
@@ -265,7 +266,6 @@
             </a>
           </div>
           <div class="item2">
-            <!-- image atrubutions: https://www.last.fm/es/music/Snarky+Puppy/+images/44900cf7d5144da9cd04dfeda0eba4fd -->
             <img loading="lazy" class="about-img" src="./src/assets/about/SnarkyPuppy_press.webp" alt="the band">
           </div>
         </div>
